@@ -1,4 +1,7 @@
-"""Блок тестов для Match, имя любой функции должно быть со словом ( test )"""
+"""
+    Блок тестов для Match, 
+    имя любой функции должно быть со словом ( test )
+"""
 
 import inspect
 from typing import Any, Dict, Optional
@@ -6,7 +9,7 @@ from typing import Any, Dict, Optional
 # Конструкция выглядит несколько опасно. Многозначно.
 # Не смог вызвать help на match. Чет на него ничего нет.
 # судя по тестам там можно условий наворотить, всё что возвращает bool
-# guards решает
+# !!! guards решает
 
 def test_match_1_default() -> Any:
     func_name = inspect.stack()[0].function
